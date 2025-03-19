@@ -4,7 +4,7 @@
  * @return {number}
  */
 function calculateRentalCost(days) {
-  const costDay = 40;
+  let costDay = 40;
   let totalCost = costDay * days;
 
   if (days >= 7) {
